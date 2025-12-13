@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 16px;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -21,4 +25,17 @@ a {
 /* Styles globaux pour les boutons */
 button {
     cursor: pointer;
+}
+
+/* Media queries pour l'adaptabilité */
+@media (max-width: 768px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 12px;
+    }
 }
