@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center; /* Centrer les cartes */
     flex-wrap: wrap;
-    gap: 20px; /* Réduire l'espace entre les cartes */
+    gap: 30px; /* Ajuster l'espace entre les cartes */
     max-width: 1200px; /* Limiter la largeur maximale pour rapprocher les cartes */
     margin: 0 auto; /* Centrer le conteneur */
 }
@@ -47,7 +47,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1;
     min-width: 300px;
-    max-width: 400px;
+    max-width: 350px; /* Ajuster la largeur maximale des cartes */
 }
 
 .action-card img {
@@ -85,7 +85,7 @@
     display: flex;
     justify-content: center; /* Centrer les cartes */
     flex-wrap: wrap;
-    gap: 20px; /* Réduire l'espace entre les cartes */
+    gap: 30px; /* Ajuster l'espace entre les cartes */
     max-width: 1000px; /* Limiter la largeur maximale pour rapprocher les cartes */
     margin: 0 auto; /* Centrer le conteneur */
 }
@@ -97,7 +97,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1;
     min-width: 200px;
-    max-width: 300px;
+    max-width: 250px; /* Ajuster la largeur maximale des cartes */
     padding: 20px;
 }
 
