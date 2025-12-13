@@ -127,7 +127,7 @@ body {
 
 .action-card p {
     padding: 0 20px 20px 20px;
-    color: #666;
+    color: #670;
 }
 
 /* Style de la section Nos Chiffres */
@@ -194,7 +194,7 @@ body {
 .mission-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #666;
+    color: #670;
 }
 
 .mission-image {
@@ -210,8 +210,115 @@ body {
 
 /* Style du pied de page */
 .footer {
+    background-color: #f9f9f9;
+    padding: 50px 5% 20px;
     text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo img {
+    height: 80px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.footer-logo p {
+    color: #670;
+    line-height: 1.6;
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-links h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #670;
+}
+
+.footer-links ul li a:hover {
+    color: #333;
+}
+
+.footer-contact {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-contact h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+    color: #670;
+}
+
+.footer-contact a {
+    color: #670;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #333;
+}
+
+.footer-social {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-social h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-social ul li a {
+    color: #670;
+    text-decoration: none;
+}
+
+.footer-social ul li a:hover {
+    color: #333;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    color: #670;
 }
