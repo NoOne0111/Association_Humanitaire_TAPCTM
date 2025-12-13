@@ -1,0 +1,14 @@
+/* Styles pour les composants réutilisables */
+/* Par exemple, les boutons, les cartes, etc. */
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
