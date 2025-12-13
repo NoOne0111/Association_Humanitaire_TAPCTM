@@ -35,8 +35,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: min(30px, 6%);
-    max-width: min(1200px, 100%);
+    gap: 20px; /* Espacement fixe pour simplifier */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -57,8 +57,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: min(30px, 6%);
-    max-width: min(1000px, 100%);
+    gap: 20px; /* Espacement fixe pour simplifier */
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -99,32 +99,24 @@
 
 /* Media queries pour les pages */
 @media (max-width: 768px) {
+    .actions-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
     .mission {
-        flex-direction: column-reverse; /* Inverser l'ordre pour que l'image soit avant le texte */
+        flex-direction: column-reverse;
     }
 
     .mission-content,
     .mission-image {
-        max-width: 100%;
-    }
-
-    .actions-container,
-    .stats-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .actions-container {
-        gap: min(20px, 5%); /* Réduire l'espace entre les cartes des actions */
-    }
-
-    .stats-container {
-        gap: min(20px, 5%); /* Réduire l'espace entre les cartes des chiffres */
-    }
-
-    .action-card,
-    .stat-card {
-        min-width: min(250px, 100%); /* Ajuster la largeur minimale des cartes */
-        max-width: min(300px, 100%); /* Ajuster la largeur maximale des cartes */
+        width: 100%;
     }
 }
