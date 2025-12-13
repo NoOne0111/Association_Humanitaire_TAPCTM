@@ -1,0 +1,94 @@
+/* Style de la bannière */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/images/main_img.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Style de la section Nos Actions */
+.actions {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.actions h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.actions-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style de la section Nos Chiffres */
+.stats {
+    padding: 50px 5%;
+    text-align: center;
+    background-color: #fffbf0; /* Fond jaune clair */
+}
+
+.stats h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style de la section Rejoignez Notre Mission */
+.mission {
+    display: flex;
+    align-items: center;
+    padding: 50px 5%;
+    gap: 50px;
+}
+
+.mission-content {
+    flex: 1;
+}
+
+.mission-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.mission-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #670;
+}
+
+.mission-image {
+    flex: 1;
+}
+
+.mission-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
