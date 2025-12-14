@@ -1,6 +1,6 @@
 /* Style de la bannière */
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/images/main_img.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/images/main_img.jpg') center/100% no-repeat;
     height: min(60vh, 500px);
     display: flex;
     align-items: center;
