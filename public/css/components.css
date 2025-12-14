@@ -23,8 +23,14 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: min(15px, 3%); /* Espace entre le logo et le texte */
+}
+
 .logo img {
-    height: clamp(60px, 5vw, 80px);
+    height: clamp(80px, 8vw, 100px); /* Agrandir le logo */
     width: auto;
 }
 
