@@ -18,24 +18,24 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.625rem 3.125rem; /* 10px 5% en rem */
+    padding: 1rem 5%;
     background-color: #fff;
     box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
 }
 
-.logo-and-tagline {
+.logo-container {
     display: flex;
     align-items: center;
-    gap: 0.3125rem; /* 5px en rem */
+    gap: 0.5rem;
 }
 
 .logo img {
-    height: 9rem; /* 120px en rem */
+    height: 5rem;
     width: auto;
 }
 
 .tagline p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin: 0;
 }
@@ -48,7 +48,7 @@ button:hover {
 }
 
 .navbar ul li {
-    margin-left: 0.625rem; /* 10px en rem */
+    margin-left: 1rem;
 }
 
 .navbar ul li a {
