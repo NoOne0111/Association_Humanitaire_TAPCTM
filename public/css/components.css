@@ -257,21 +257,26 @@ button:hover {
 }
 
 /* Media queries pour les composants */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .header {
         flex-direction: column;
-        gap: min(20px, 5%);
+        gap: 1.25rem;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        gap: 0.625rem;
     }
 
     .navbar ul {
         flex-direction: column;
-        gap: min(10px, 2%);
+        gap: 0.625rem;
     }
 
     .navbar ul li {
         margin-left: 0;
     }
-
+    
     .footer-content {
         flex-direction: column;
     }
