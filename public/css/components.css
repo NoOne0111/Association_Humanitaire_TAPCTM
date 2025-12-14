@@ -30,7 +30,7 @@ button:hover {
 }
 
 .logo img {
-    height: clamp(80px, 8vw, 100px); /* Agrandir le logo */
+    height: clamp(80px, 8vw, 100px); /* Augmenter la taille du logo */
     width: auto;
 }
 
