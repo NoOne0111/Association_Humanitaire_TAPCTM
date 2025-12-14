@@ -1,14 +1,14 @@
 /* Style de la bannière */
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../public/images/main_img.jpg') center/contain no-repeat;
+    background: #f0f0f0; /* Fond uniforme */
     height: min(60vh, 500px);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
-    background-color: #f0f0f0; /* Couleur de fond uniforme */
+    color: #000; /* Texte en noir */
 }
+
 
 .banner-content h1 {
     font-size: clamp(2rem, 5vw, 3rem);
