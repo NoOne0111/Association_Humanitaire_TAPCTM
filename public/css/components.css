@@ -18,24 +18,24 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
+    padding: 0.625rem 3.125rem; /* 10px 5% en rem */
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
 }
 
 .logo-and-tagline {
     display: flex;
     align-items: center;
-    gap: 10px; /* Réduire l'espace entre le logo et le texte */
+    gap: 0.3125rem; /* 5px en rem */
 }
 
 .logo img {
-    height: 100px; /* Augmenter la taille du logo */
+    height: 7.5rem; /* 120px en rem */
     width: auto;
 }
 
 .tagline p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
 }
@@ -48,7 +48,7 @@ button:hover {
 }
 
 .navbar ul li {
-    margin-left: 20px; /* Réduire l'espace entre les éléments du menu */
+    margin-left: 0.625rem; /* 10px en rem */
 }
 
 .navbar ul li a {
