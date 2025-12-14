@@ -260,12 +260,12 @@ button:hover {
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        gap: min(1.25rem, 5%);
+        gap: min(20px, 5%);
     }
-    
+
     .navbar ul {
         flex-direction: column;
-        gap: min(0.625rem, 2%);
+        gap: min(10px, 2%);
     }
 
     .navbar ul li {
