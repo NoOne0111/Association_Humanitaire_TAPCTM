@@ -260,12 +260,17 @@ button:hover {
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        gap: min(20px, 5%);
+        gap: 1rem;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
     .navbar ul {
         flex-direction: column;
-        gap: min(10px, 2%);
+        gap: 0.5rem;
     }
 
     .navbar ul li {
