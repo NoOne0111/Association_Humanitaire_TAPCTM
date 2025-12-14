@@ -26,11 +26,11 @@ button:hover {
 .logo-and-tagline {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px; /* Réduire l'espace entre le logo et le texte */
 }
 
 .logo img {
-    height: 80px;
+    height: 100px; /* Augmenter la taille du logo */
     width: auto;
 }
 
@@ -48,7 +48,7 @@ button:hover {
 }
 
 .navbar ul li {
-    margin-left: 30px;
+    margin-left: 20px; /* Réduire l'espace entre les éléments du menu */
 }
 
 .navbar ul li a {
