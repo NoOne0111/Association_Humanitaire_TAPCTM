@@ -1,6 +1,6 @@
 /* Style de la bannière */
 .banner {
-    background-color: #f5f5f5; /* Couleur de fond uniforme */
+    background-color: #fff; /* Fond blanc pour correspondre au reste de la page */
     min-height: 60vh;
     display: flex;
     align-items: center;
@@ -18,8 +18,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('../../public/images/main_img.png') center/contain no-repeat;
-    opacity: 0.9; /* Légère transparence pour uniformiser */
+    background: url('../../public/images/main_img.jpg') center/contain no-repeat;
     z-index: 0;
 }
 
@@ -29,13 +28,13 @@
 }
 
 .banner-content h1 {
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-size: clamp(1.2rem, 3vw, 2rem); /* Réduire la taille du texte */
     margin-bottom: min(15px, 4%);
     color: #000;
 }
 
 .banner-content p {
-    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-size: clamp(0.9rem, 2vw, 1rem); /* Réduire la taille du texte */
     margin-bottom: min(25px, 5%);
     color: #000;
 }
