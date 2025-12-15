@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #f5f5f5; /* Couleur de fond de secours */
+    background-color: #fff; /* Couleur de fond de secours */
 }
 
 .banner-content h1 {
