@@ -1,25 +1,45 @@
 /* Style de la bannière */
 .banner {
-    background: url('../../public/images/main_img.jpg') center/contain no-repeat;
+    background-color: #f5f5f5; /* Couleur de fond uniforme */
     min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #fff; /* Couleur de fond de secours */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ligne d'ombre en dessous */
+    overflow: hidden; /* Empêcher les débordements */
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../../public/images/main_img.jpg') center/contain no-repeat;
+    opacity: 0.9; /* Légère transparence pour uniformiser */
+    z-index: 0;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
 }
 
 .banner-content h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
-    margin-bottom: min(20px, 5%);
-    color: #000; /* Texte en noir */
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: min(15px, 4%);
+    color: #000;
 }
 
 .banner-content p {
-    font-size: clamp(1.2rem, 3vw, 1.5rem);
-    margin-bottom: min(30px, 6%);
-    color: #000; /* Texte en noir */
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    margin-bottom: min(25px, 5%);
+    color: #000;
 }
+
 
 /* Style de la section Nos Actions */
 .actions {
