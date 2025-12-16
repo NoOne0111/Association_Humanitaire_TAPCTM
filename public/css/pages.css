@@ -189,7 +189,7 @@
 .mission-content p {
     font-size: clamp(1rem, 2vw, 1.2rem);
     margin-bottom: 1rem;
-    color: #bde994; /* Couleur secondaire */
+    color: #333; /* Couleur secondaire */
 }
 
 .mission-image {
