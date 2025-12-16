@@ -54,7 +54,7 @@
 .actions p {
     font-size: clamp(1rem, 2vw, 1.2rem);
     margin-bottom: min(30px, 6%);
-    color: #bde994; /* Couleur secondaire */
+    color: #7f5137; /* Couleur secondaire */
 }
 
 .actions-container {
@@ -70,7 +70,7 @@
 .stats {
     padding: min(50px, 10%) min(5%, 10%);
     text-align: center;
-    background-color: #fdeeb6; /* Couleur principale 1 */
+    background-color: #f9ecb7; /* Couleur principale 1 */
 }
 
 .stats h2 {
@@ -109,7 +109,7 @@
 .mission-content p {
     font-size: clamp(1rem, 2vw, 1.2rem);
     margin-bottom: min(30px, 6%);
-    color: #bde994; /* Couleur secondaire */
+    color: #333; /* Couleur secondaire */
 }
 
 .mission-image {
@@ -238,14 +238,14 @@
 .history-content p {
     font-size: clamp(1rem, 2vw, 1.2rem);
     margin-bottom: 1.5rem;
-    color: #bde994; /* Couleur secondaire */
+    color: #7f5137; /* Couleur secondaire */
     text-align: center;
 }
 
 /* Style de la section Nos Valeurs */
 .values-section {
     padding: 4rem 2rem;
-    background-color: #2b2e29; /* Couleur secondaire */
+    background-color: #dceccd; /* Couleur secondaire */
     text-align: center;
 }
 
@@ -313,7 +313,7 @@
 
 .team-section p {
     font-size: clamp(1rem, 2.5vw, 1.5rem);
-    color: #2b2e29; /* Couleur secondaire */
+    color: #333; /* Couleur secondaire */
     max-width: 800px;
     margin: 0 auto 3rem;
 }
@@ -349,7 +349,7 @@
 
 .team-member p {
     font-size: 1rem;
-    color: #bde994; /* Couleur secondaire */
+    color: #333; /* Couleur secondaire */
 }
 
 /* Media queries pour la page À Propos */
