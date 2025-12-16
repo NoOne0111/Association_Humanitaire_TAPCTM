@@ -87,7 +87,7 @@ button:hover {
 }
 
 .footer-logo p {
-    color: #bde994;
+    color: #333;
     line-height: 1.6;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
@@ -113,7 +113,7 @@ button:hover {
 
 .footer-links ul li a {
     text-decoration: none;
-    color: #bde994;
+    color: #7f5137;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
@@ -134,12 +134,12 @@ button:hover {
 
 .footer-contact p {
     margin-bottom: min(10px, 2%);
-    color: #bde994;
+    color: #7f5137;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
 .footer-contact a {
-    color: #670;
+    color: #7f5137;
     text-decoration: none;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
@@ -168,7 +168,7 @@ button:hover {
 }
 
 .footer-social ul li a {
-    color: #670;
+    color: #b3ccf3;
     text-decoration: none;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
@@ -226,7 +226,7 @@ button:hover {
 
 .action-card p {
     padding: 0 min(20px, 5%) min(20px, 5%) min(20px, 5%);
-    color: #670;
+    color: #7f5137;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
