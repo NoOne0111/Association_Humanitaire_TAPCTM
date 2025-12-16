@@ -62,9 +62,10 @@ button:hover {
 
 /* Style du pied de page */
 .footer {
-    background-color: #f9f9f9;
+    background-color: #fff;
     padding: min(50px, 10%) min(5%, 10%) min(20px, 5%);
     text-align: center;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
 }
 
 .footer-content {
