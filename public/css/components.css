@@ -16,13 +16,13 @@ button:hover {
 /* Style du logo en haut de la page */
 .logo-banner {
     background-color: #fff;
-    padding: 1.25rem;
+    padding: 2.5rem; /* Augmenter le padding pour plus d'espace autour du logo */
     text-align: center;
     box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
 }
 
 .logo-banner .logo img {
-    height: 12.5rem;
+    height: 25rem; /* Augmenter davantage la taille du logo */
     width: auto;
 }
 
