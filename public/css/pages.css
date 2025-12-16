@@ -253,13 +253,127 @@
     color: #666;
 }
 
+/* Style de la section Notre Équipe */
+.team-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.team-section p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Style de la section Témoignages */
+.testimonials-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.testimonials-section p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-style: italic;
+}
+
+.testimonial-card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.testimonial-card p:last-child {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: normal;
+}
+
 /* Media queries pour la page À Propos */
 @media (max-width: 768px) {
     .mission-section {
         flex-direction: column;
     }
 
-    .values-container {
+    .values-container,
+    .team-container,
+    .testimonials-container {
         flex-direction: column;
         align-items: center;
     }
