@@ -219,38 +219,24 @@
 /* Style de la section Notre Histoire */
 .history-section {
     padding: 4rem 2rem;
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
-}
-
-.history-content {
-    flex: 1;
+    text-align: center;
 }
 
 .history-content h2 {
     font-size: clamp(1.8rem, 4vw, 2.5rem);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: #333;
 }
 
 .history-content p {
     font-size: clamp(1rem, 2vw, 1.2rem);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: #666;
+    text-align: center;
 }
 
-.history-image {
-    flex: 1;
-}
-
-.history-image img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 /* Style de la section Nos Valeurs */
 .values-section {
