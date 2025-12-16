@@ -1,4 +1,4 @@
-/* Style de la bannière */
+/* Style de la bannière home.html */
 .banner {
     background-color: #fff; /* Fond blanc pour correspondre au reste de la page */
     min-height: 60vh;
@@ -139,5 +139,128 @@
     .mission-content,
     .mission-image {
         width: 100%;
+    }
+}
+
+/* Style de la bannière À Propos */
+.about-banner {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.about-banner h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+}
+
+.about-banner p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style de la section Notre Mission */
+.mission-section {
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-content {
+    flex: 1;
+}
+
+.mission-content h2 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.mission-content p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.mission-image {
+    flex: 1;
+}
+
+.mission-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style de la section Nos Valeurs */
+.values-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.values-section h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.values-section p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.values-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.value-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.value-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.value-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Media queries pour la page À Propos */
+@media (max-width: 768px) {
+    .mission-section {
+        flex-direction: column;
+    }
+
+    .values-container {
+        flex-direction: column;
+        align-items: center;
     }
 }
