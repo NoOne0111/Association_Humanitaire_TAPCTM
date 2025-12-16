@@ -1,5 +1,6 @@
 /* Style de la bannière */
 .banner {
+    background: url('../../public/images/main_img.jpg') center/contain no-repeat;
     background-color: #fff; /* Fond blanc pour correspondre au reste de la page */
     min-height: 60vh;
     display: flex;
@@ -18,7 +19,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('../../public/images/main_img.jpg') center/contain no-repeat;
     z-index: 0;
 }
 
