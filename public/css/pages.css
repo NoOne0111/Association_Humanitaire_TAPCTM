@@ -391,7 +391,7 @@
 }
 
 .contact-form {
-    flex: 1;
+    flex: 2; /* Augmenter la largeur de la section "Envoyer un Message" */
     background: #fff;
     padding: 2rem;
     border-radius: 10px;
@@ -447,7 +447,7 @@
 }
 
 .contact-info {
-    flex: 1;
+    flex: 1; /* Garder la largeur de la section "Informations de Contact" */
     background: #f9f9f9;
     padding: 2rem;
     border-radius: 10px;
@@ -492,5 +492,9 @@
 @media (max-width: 768px) {
     .contact-section {
         flex-direction: column;
+    }
+
+    .contact-form, .contact-info {
+        flex: 1;
     }
 }
