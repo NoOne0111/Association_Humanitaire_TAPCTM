@@ -87,7 +87,7 @@ button:hover {
 }
 
 .footer-logo p {
-    color: #670;
+    color: #bde994;
     line-height: 1.6;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
@@ -113,7 +113,7 @@ button:hover {
 
 .footer-links ul li a {
     text-decoration: none;
-    color: #670;
+    color: #bde994;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
@@ -134,7 +134,7 @@ button:hover {
 
 .footer-contact p {
     margin-bottom: min(10px, 2%);
-    color: #670;
+    color: #bde994;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
@@ -180,7 +180,7 @@ button:hover {
 .footer-bottom {
     border-top: 1px solid #ddd;
     padding-top: min(20px, 5%);
-    color: #670;
+    color: #333;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
