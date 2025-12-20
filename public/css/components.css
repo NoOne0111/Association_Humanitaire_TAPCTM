@@ -74,7 +74,7 @@ button:hover {
 }
 
 .footer-logo img {
-    height: clamp(60px, 5vw, 80px);
+    height: clamp(10rem, 5vw, 15rem);
     width: auto;
     margin-bottom: min(20px, 5%);
 }
