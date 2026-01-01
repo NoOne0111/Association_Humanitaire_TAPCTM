@@ -30,6 +30,7 @@
 .banner-content h1 {
     font-size: clamp(1.2rem, 3vw, 2rem); /* Réduire la taille du texte */
     margin-bottom: min(15px, 4%);
+    background-color:#f9ecb7;
     color: #fff; /* Couleur principale 2 */
 }
 
