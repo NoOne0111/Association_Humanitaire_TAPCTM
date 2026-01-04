@@ -6,7 +6,7 @@ function loadHeader() {
         .then(data => {
             document.getElementById('header-container').innerHTML = data;
 
-            var donationlink = document.getElementById("donationbutton");
+            var donationlink = document.getElementById("donation-header");
             if (donationlink) {
                 donationlink.setAttribute("href", donationUrl);
             }
@@ -20,7 +20,7 @@ function loadFooter() {
         .then(data => {
             document.getElementById('footer-container').innerHTML = data;
             
-            var donationlink = document.getElementById("donationbutton");
+            var donationlink = document.getElementById("donation-footer");
             if (donationlink) {
                 donationlink.setAttribute("href", donationUrl);
             }
