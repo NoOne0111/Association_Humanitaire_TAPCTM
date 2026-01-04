@@ -1,3 +1,5 @@
+var donationUrl = "https://www.paypal.com/donate/?hosted_button_id=VYR4JZ9CBN7XU";
+
 function loadHeader() {
     fetch('../../src/components/header.html')
         .then(response => response.text())
