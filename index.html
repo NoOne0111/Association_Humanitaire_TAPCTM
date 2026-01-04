@@ -17,7 +17,10 @@
     <link rel="stylesheet" href="public/css/pages.css">
 </head>
 <body>
-
+    <script>
+        var paypalUrl = "https://www.paypal.com/donate/?hosted_button_id=VYR4JZ9CBN7XU";
+        document.getElementById("paypal").setAttribute("href", paypalUrl);
+    </script>
     <div class="logo-banner">
         <div class="logo">
             <img src="public/images/association_logo.png" alt="Logo de l'association">
@@ -27,7 +30,7 @@
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="https://www.paypal.com/donate/?hosted_button_id=VYR4JZ9CBN7XU">Faire Un Don</a></li>
+                <li><a id="paypal" href="#">Faire Un Don</a></li>
                 <li><a href="src/pages/about.html">À Propos</a></li>
                 <li><a href="src/pages/contact.html">Contact</a></li>
             </ul>
@@ -129,7 +132,7 @@
                 <h3>Liens Rapides</h3>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
-                    <li><a href="https://www.paypal.com/donate/?hosted_button_id=VYR4JZ9CBN7XU">Faire Un Don</a></li>
+                    <li><a id="paypal" href="#">Faire Un Don</a></li>
                     <li><a href="src/pages/about.html">À Propos</a></li>
                     <li><a href="src/pages/contact.html">Contact</a></li>
                 </ul>
