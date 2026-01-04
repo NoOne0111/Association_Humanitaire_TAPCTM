@@ -2,4 +2,9 @@
 window.onload = function() {
     loadHeader();
     loadFooter();
+
+    var paypal = document.getElementById("paypal");
+    if (paypal) {
+        paypal.setAttribute("href", paypalUrl);
+    }
 };
